@@ -3,20 +3,147 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alumni Management System</title>
+    <meta name="description" content="Connect with alumni, discover career opportunities and stay connected with your college community.">
+    <title>Alumni Connect | Alumni Management System</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Welcome to Alumni Connect</h1>
 
-    <p>Connecting alumni, students and our college community.</p>
+    <header class="header">
+        <nav class="navbar container">
+            <a href="#home" class="logo">Alumni<span>Connect</span></a>
 
-    <h2>Our Features</h2>
-    <ul>
-        <li>Alumni Directory</li>
-        <li>Alumni Registration</li>
-        <li>Events and Reunions</li>
-        <li>Jobs and Internships</li>
-    </ul>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#features">Features</a>
+                <a href="#events">Events</a>
+            </div>
+
+            <a href="#register" class="nav-button">Join Our Network</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="container hero-content">
+                <p class="eyebrow">ONE COMMUNITY. MANY JOURNEYS.</p>
+
+                <h1>Your College Connects You.<br>
+                    Your Alumni Inspire You.</h1>
+
+                <p class="hero-text">
+                    Reconnect with classmates, grow your professional
+                    network and discover new opportunities with
+                    your college alumni community.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#register" class="btn btn-primary">
+                        Join the Community
+                    </a>
+                    <a href="#features" class="btn btn-secondary">
+                        Explore More
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="stats" id="about">
+            <div class="container stats-grid">
+                <div class="stat-item">
+                    <h2>Our Alumni</h2>
+                    <p>A growing global community</p>
+                </div>
+                <div class="stat-item">
+                    <h2>Our Network</h2>
+                    <p>Students, graduates and mentors</p>
+                </div>
+                <div class="stat-item">
+                    <h2>Our Future</h2>
+                    <p>Learning and career opportunities</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section container" id="features">
+            <div class="section-heading">
+                <p class="eyebrow">WHAT WE OFFER</p>
+                <h2>Everything in One Community</h2>
+                <p>Stay connected with your college and its alumni.</p>
+            </div>
+
+            <div class="feature-grid">
+                <article class="feature-card">
+                    <div class="feature-icon">01</div>
+                    <h3>Alumni Directory</h3>
+                    <p>Discover fellow graduates and build meaningful
+                       professional connections.</p>
+                </article>
+
+                <article class="feature-card" id="register">
+                    <div class="feature-icon">02</div>
+                    <h3>Alumni Registration</h3>
+                    <p>Join the community and share your educational
+                       and professional journey.</p>
+                    <a href="register.html" class="text-link">
+                        Register now →
+                    </a>
+                </article>
+
+                <article class="feature-card" id="events">
+                    <div class="feature-icon">03</div>
+                    <h3>Events & Reunions</h3>
+                    <p>Keep up with alumni meetups, college events
+                       and community activities.</p>
+                </article>
+
+                <article class="feature-card">
+                    <div class="feature-icon">04</div>
+                    <h3>Jobs & Internships</h3>
+                    <p>Explore career opportunities and connect
+                       with professionals in your field.</p>
+                </article>
+
+                <article class="feature-card">
+                    <div class="feature-icon">05</div>
+                    <h3>Mentorship</h3>
+                    <p>Learn from experienced alumni and get
+                       guidance for your career.</p>
+                </article>
+
+                <article class="feature-card">
+                    <div class="feature-icon">06</div>
+                    <h3>College Community</h3>
+                    <p>Maintain lasting connections with students,
+                       graduates and your institution.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="join-section">
+            <div class="container join-content">
+                <h2>Your Alumni Journey Starts Here</h2>
+                <p>Reconnect, share experiences and open doors
+                   to new opportunities.</p>
+                <a href="register.html" class="btn btn-light">
+                    Become a Member
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <a href="#home" class="logo footer-logo">
+                Alumni<span>Connect</span>
+            </a>
+            <p>Connecting graduates. Inspiring futures.</p>
+            <p class="copyright">
+                © 2026 Alumni Connect. BCA Final Year Project.
+            </p>
+        </div>
+    </footer>
+
 </body>
 </html>
