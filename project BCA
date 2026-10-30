@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alumni Management System</title>
+</head>
+<body>
+    <h1>Welcome to Alumni Connect</h1>
+
+    <p>Connecting alumni, students and our college.</p>
+
+    <h2>Our Features</h2>
+    <ul>
+        <li>Alumni Directory</li>
+        <li>Alumni Registration</li>
+        <li>Events and Reunions</li>
+        <li>Jobs and Internships</li>
+    </ul>
+</body>
+</html>
